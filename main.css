@@ -28,6 +28,7 @@ a {
 
 /* Style the header */
 .header {
+	min-width: 925px;
 	padding: 40px;
 	text-align: center;
 	margin: 0;

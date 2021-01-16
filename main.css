@@ -8,12 +8,35 @@
 		#2ca361
 		#3a4218		*/
 
+@font-face {
+	font-family: "archivo-black";
+	src: url('./fonts/Archivo_Black/ArchivoBlack-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: "montserrat";
+	src: url('./fonts/Montserrat/Montserrat-Light.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: "raleway";
+	src: url('./fonts/Raleway/static/Raleway-Light.ttf') format('truetype');
+}
+
 body {
 	background-color: #f7f6f7;
 	color: black;
-	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-family: "montserrat";
 	font-size: 16px;
 	margin: 0;
+}
+
+h1 {
+	font-family: "archivo-black";
+}
+
+h2 {
+	font-family: "archivo-black";
 }
 
 a {
@@ -38,7 +61,7 @@ a {
 		rgba(0, 0, 0, 0.15)),
 		url("photos/banner01.jpg");
 	color: #e1e1e1;
-	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-family: "archivo-black";
 	opacity: 0.75;
 }
 
@@ -70,29 +93,6 @@ a {
 	text-align: center;
 	font-size: 8px;
 }
-
-/* CV button */
-/*.CV {
-	text-align: center;
-	margin-top: 50px;
-	background-color: #f7f6f7;
-	color: #2ca361;
-	padding: none;
-}
-
-.CV a {
-	text-decoration: none;
-	color: #2ca361;
-	padding: 10px;
-	padding-left: 20px;
-	padding-right: 20px;
-	border: 2px solid #2ca361;
-}
-
-.CV a:hover:not(.active) {
-	background-color: #2ca361;
-	color: #f7f6f7;
-}*/
 
 /* Boxes for content */
 .container {

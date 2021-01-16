@@ -1,119 +1,123 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="../main.css">
+<head>  
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../tc-style.css">
+	<link rel="stylesheet" href="../fonts/font-awesome-4.7.0/css/font-awesome.min.css">
 
-  <!-- Viewport Setting -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- External Link Thumbnail Info -->
-  <meta property="og:image"       content="../photos/Portrait_NH_Light_FilterY1_landscape.jpg" />
-  <meta property="og:type"        content="website" />
-  <meta property="og:url"         content="https://www.katejsim.com/bio/bio.html" />
-  <meta property="og:title"       content="Kate J. Sim - research in gender, technology, and trust" />
-  <meta property="og:description" content="Professional website of Kate J. Sim." />
+	<!-- Viewport Setting -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-  <title> Bio - Kate Sim </title>
+	<!-- External Link Thumbnail Info -->
+	<meta property="og:image"       content="../photos/Portrait_NH_Light_FilterY1_landscape.jpg" />
+	<meta property="og:type"        content="website" />
+	<meta property="og:url"         content="https://www.katejsim.com" />
+	<meta property="og:title"       content="Kate J. Sim - research in gender, technology, and trust" />
+	<meta property="og:description" content="Professional website of Kate J. Sim." />
+
+
+	<title> Kate Sim - Bio </title>
 </head>
 
+	<script>
+		function extendNav() {
+			var x = document.getElementById("menu");
+			if (x.className === "navlinks") {
+				x.className += " responsive";
+			}
+			else {
+				x.className = "navlinks";
+			}
+		}
+
+	</script>
 
 
 
 <body>
 
-<!-- Banner -->
-<a href="../index.html">
-  <div class="header">
-    <p class="title"> Kate J. Sim </p>
-    <p class="subtitle"> research in gender, technology, and power </p>
-  </div>
-</a>
-
 
 <div class="container">
 
-<div class="bodycontainer">
+	<div class="row">
+		<div class="column sidebar sticky">
+			<div class="row nav" id="profile">
+				<a href="../index.html">
+					<img src="../photos/profile.png" class="navprofile">
+				</a>
+			</div>
 
-<div class="row">
+			<div class="row nav" id="navigation">
+				<ul class="navlinks" id="menu">
+					<li class="icon"> <a href="javascript:void(0);" onclick="extendNav()">
+							<i class="fa fa-bars"></i></a></li>
+					<li> <a href="./bio.html">About</a></li>
+					<li> <a href="../writing/writing_talks.html">Writings/Talks</a></li>
+					<li> <a href="../cv/currvit.html">CV</a></li>
+					<li> <a href="../contact/contact.html">Contact</a></li>
+				</ul>
+			</div>
+		</div>
 
-  <div class="navicolumn">
-  <ul class="navi">
-    <li> <a href="bio.html"> Bio </a></li>
-    <li> <a href="../writing/writing_talks.html"> Writing & Talks </a></li>
-    <li> <a href="../cv/currvit.html"> CV </a></li>
-    <li> <a href="../contact/contact.html"> Contact </a></li>
-  </ul>
-  </div>
+		<div class="column contentframe">
+			<div class="row tbody" id="text-body">
+				<h2> BIO </h2>
+				      <p> 
+					I am a mixed-method social scientist specializing in the 
+					intersection of gender, trust, and technology. <br><br>
 
-    <div class="bodycolumn">
+					<img  src="../photos/Portrait_NH_Light_FilterY1.jpg" 
+					      id="light-portrait"
+					      align="right"
+					      class="midtextimg">
+					
+					I am a PhD Candidate at the <a href="https://www.oii.ox.ac.uk/" target="_blank"> Oxford Internet Institute </a>
+					where I study how data-driven and automated reporting 
+					systems for sexual harassment reconfigure the ecosystem
+					of campus safety in US higher education. I employ 
+					ethnographic methods with interface analysis to uncover
+					the social, political, and ethical implications of
+					using emerging technologies to govern sexual conduct. <br><br>
+					
+					When not dissertating, I am a part of the European Commission's 
+					<a href="https://research.ngi.eu/about/" target="_blank"> Next Genderation Internet (NGI) Forward </a> 
+					project to create a more democratic, open, and trustworthy Internet. 
+					As the Lead Digital Ethnographer, I code, analyze, and visualize semantic
+					social networks from ethnographic data. <br><br>
+					
+					Elsewhere, I examine AI/algorithmic accountability in public life,
+					including ethical and practical scopes for predictive risk 
+					assessment tools for child protection services in the UK
+					and the use of AI systems during COVID-19. <br><br>
+				     
+					Prior to research, I have nearly a decade of experience
+					in community organizing, survivor advocacy, and qualitative 
+					research in US, UK, and South Korea. I am incredibly proud 
+					to have been a part of youth- and survivor-led campaigns like 
+					<a href="https://www.knowyourix.org" target="_blank">
+					  Know Your IX </a> and 
+					<a href="https://www.huffingtonpost.co.uk/2014/04/03/harvard-sexual-assault-complaint_n_5080708.html" target="_blank">
+					  Our Harvard Can Do Better </a> to demand a safer 
+					and more just campus. The lessons in community building, 
+					transformative justice, and solidarity continue
+					to inform my work.<br><br>
+					
+					I hold a MSc in social science of the Internet 
+					from the Oxford Internet Institute and a BA in 
+					gender and sexuality studies from Harvard. <br><br>
+				      </p>			
+			</div>
+			<div class="row footer">
+				Design by John Jae Hyung Sim
+			</div>
+		</div>
 
-  <div class="row">
-    <div class="column">
-      <!-- Main page portrait -->
-      <img src="../photos/body_0402.jpg" class="portrait">
 
-    </div>
+	</div>
 
-    <div class="column">
-      <h2> BIO </h2>
-      <p> 
-        I am a mixed-method social scientist specializing in the 
-        intersection of gender, trust, and technology. <br><br>
-        
-        I am a PhD Candidate at the <a href="https://www.oii.ox.ac.uk/" target="_blank"> Oxford Internet Institute </a>
-        where I study how data-driven and automated reporting 
-        systems for sexual harassment reconfigure the ecosystem
-        of campus safety in US higher education. I employ 
-        ethnographic methods with interface analysis to uncover
-        the social, political, and ethical implications of
-        using emerging technologies to govern sexual conduct. <br><br>
-        
-        When not dissertating, I am a part of the European Commission's 
-        <a href="https://research.ngi.eu/about/" target="_blank"> Next Genderation Internet (NGI) Forward </a> 
-        project to create a more democratic, open, and trustworthy Internet. 
-        As the Lead Digital Ethnographer, I code, analyze, and visualize semantic
-        social networks from ethnographic data. <br><br>
-        
-        Elsewhere, I examine AI/algorithmic accountability in public life,
-        including ethical and practical scopes for predictive risk 
-        assessment tools for child protection services in the UK
-        and the use of AI systems during COVID-19. <br><br>
-     
-        Prior to research, I have nearly a decade of experience
-        in community organizing, survivor advocacy, and qualitative 
-        research in US, UK, and South Korea. I am incredibly proud 
-        to have been a part of youth- and survivor-led campaigns like 
-        <a href="https://www.knowyourix.org" target="_blank">
-          Know Your IX </a> and 
-        <a href="https://www.huffingtonpost.co.uk/2014/04/03/harvard-sexual-assault-complaint_n_5080708.html" target="_blank">
-          Our Harvard Can Do Better </a> to demand a safer 
-        and more just campus. The lessons in community building, 
-        transformative justice, and solidarity continue
-        to inform my work.<br><br>
-        
-        I hold a MSc in social science of the Internet 
-        from the Oxford Internet Institute and a BA in 
-        gender and sexuality studies from Harvard. <br><br>
-      </p>
-    </div>
-  </div>
 </div>
-</div>
-
-
-
-
-
-
-<div class="footer">
-  <p>Website design by Jae Hyung Sim</p>
-</div>
-
-</div>
-
 
 
 

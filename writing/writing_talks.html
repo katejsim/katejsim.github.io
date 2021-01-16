@@ -1,120 +1,123 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="../main.css">
+<head>  
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../tc-style.css">
+	<link rel="stylesheet" href="../fonts/font-awesome-4.7.0/css/font-awesome.min.css">
 
-  <!-- Viewport Setting -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- External Link Thumbnail Info -->
-  <meta property="og:image"       content="../photos/Portrait_NH_Light_FilterY1_landscape.jpg" />
-  <meta property="og:type"        content="website" />
-  <meta property="og:url"         content="https://www.katejsim.com/writing/writing_talks.html" />
-  <meta property="og:title"       content="Kate J. Sim - research in gender, technology, and trust" />
-  <meta property="og:description" content="Professional website of Kate J. Sim." />
+	<!-- Viewport Setting -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-  <title> Writing & Talks - Kate Sim </title>
+	<!-- External Link Thumbnail Info -->
+	<meta property="og:image"       content="../photos/Portrait_NH_Light_FilterY1_landscape.jpg" />
+	<meta property="og:type"        content="website" />
+	<meta property="og:url"         content="https://www.katejsim.com" />
+	<meta property="og:title"       content="Kate J. Sim - research in gender, technology, and trust" />
+	<meta property="og:description" content="Professional website of Kate J. Sim." />
+
+
+	<title> Kate Sim - Writings/Talks </title>
 </head>
 
+	<script>
+		function extendNav() {
+			var x = document.getElementById("menu");
+			if (x.className === "navlinks") {
+				x.className += " responsive";
+			}
+			else {
+				x.className = "navlinks";
+			}
+		}
+
+	</script>
 
 
 
 <body>
 
-<!-- Banner -->
-<a href="../index.html">
-  <div class="header">
-    <p class="title"> Kate J. Sim </p>
-    <p class="subtitle"> research in gender, technology, and power </p>
-  </div>
-</a>
 
 <div class="container">
 
-<div class="bodycontainer">
+	<div class="row">
+		<div class="column sidebar sticky">
+			<div class="row nav" id="profile">
+				<a href="../index.html">
+					<img src="../photos/profile.png" class="navprofile">
+				</a>
+			</div>
 
-<div class="row">
+			<div class="row nav" id="navigation">
+				<ul class="navlinks" id="menu">
+					<li class="icon"> <a href="javascript:void(0);" onclick="extendNav()">
+							<i class="fa fa-bars"></i></a></li>
+					<li> <a href="../bio/bio.html">Bio</a></li>
+					<li> <a href="./writing_talks.html">Writings/Talks</a></li>
+					<li> <a href="../cv/currvit.html">CV</a></li>
+					<li> <a href="../contact/contact.html">Contact</a></li>
+				</ul>
+			</div>
+		</div>
 
-  <div class="navicolumn">
-  <ul class="navi">
-    <li> <a href="../bio/bio.html"> Bio </a></li>
-    <li> <a href="writing_talks.html"> Writing & Talks </a></li>
-    <li> <a href="../cv/currvit.html"> CV </a></li>
-    <li> <a href="../contact/contact.html"> Contact </a></li>
-  </ul>
-  </div>
-  
-  <div class="bodycolumn">
-    <div class="row">
-      <div class="noimgcolumn">
+		<div class="column contentframe">
+			<div class="row tbody" id="text-body">
+				<h2> Writing & Talks </h2>
 
-      <h2> Writing & Talks </h2>
+			      <div class="publications">
+				<p> "<a href="https://digitalfreedomfund.org/wp-content/uploads/2021/01/20210104-DFF-AI-COVID-Report-FINAL.pdf" target="_blank">Safeguarding digital rights amidst COVID-19 through Strategic Litigation on AI</a>." Dec 2020. </p>
+				
+				<p> “Can we address sexual violence by collecting more
+				  data? An Interview with <i>Deep Dives</i>.” June 2020. 
+				  <br><a href="https://deepdives.in/can-we-address-sexual-violence-by-collecting-more-data-5c49212b1c31" target="_blank">
+				    https://deepdives.in/can-we-address-sexual-violence-by-collecting-more-data-5c49212b1c31</a>. </p>
 
-      <div class="publications">
-        <p> "<a href="https://digitalfreedomfund.org/wp-content/uploads/2021/01/20210104-DFF-AI-COVID-Report-FINAL.pdf" target="_blank">
-            Safeguarding digital rights amidst COVID-19 through Strategic Litigation on AI</a>." Dec 2020. </p>
-        
-        <p> “Can we address sexual violence by collecting more
-          data? An Interview with <i>Deep Dives</i>.” June 2020. 
-          <a href="https://deepdives.in/can-we-address-sexual-violence-by-collecting-more-data-5c49212b1c31" target="_blank">
-            https://deepdives.in/can-we-address-sexual-violence-by-collecting-more-data-5c49212b1c31</a>. </p>
+				<p> “What's the harm in categorisation? Reflections 
+				  on the categorisation work of Tech4Good.” 
+				  <i>Big Data & Society</i> blog. 2020. 
+				  <br><a href="http://bigdatasoc.blogspot.com/2020/03/whats-harm-in-categorisation.html" target="_blank">
+				    http://bigdatasoc.blogspot.com/2020/03/whats-harm-in-categorisation.html</a>.
+				</p>
 
-        <p> “What's the harm in categorisation? Reflections 
-          on the categorisation work of Tech4Good.” 
-          <i>Big Data & Society</i> blog. 2020. 
-          <a href="http://bigdatasoc.blogspot.com/2020/03/whats-harm-in-categorisation.html" target="_blank">
-            http://bigdatasoc.blogspot.com/2020/03/whats-harm-in-categorisation.html</a>.
-        </p>
+				<p> “Victim blaming meets technological objectivity:
+				  Anti-rape technology and its design.” <i>XYZ</i>.
+				  2018.
+				  <br><a href="https://xyz.informationactivism.org/en/victim-blaming-meets-technology" target="_blank">
+				    https://xyz.informationactivism.org/en/victim-blaming-meets-technology</a>. </p>
 
-        <p> “Victim blaming meets technological objectivity:
-          Anti-rape technology and its design.” <i>XYZ</i>.
-          2018.
-          <a href="https://xyz.informationactivism.org/en/victim-blaming-meets-technology" target="_blank">
-            https://xyz.informationactivism.org/en/victim-blaming-meets-technology</a>. </p>
+				<p> “Workshop report: Design ethics for gender-based
+				  violence and safety technologies.”  
+				  <i> Freedom to Tinker</i>. 2017.
+				  <br><a href = "https://freedom-to-tinker.com/2017/07/24/design-ethics-for-gender-based-violence-and-safety-technologies/" target="_blank">
+				    https://freedom-to-tinker.com/2017/07/24/design-ethics-for-gender-based-violence-and-safety-technologies/</a>. </p>
+			      </div>
 
-        <p> “Workshop report: Design ethics for gender-based
-          violence and safety technologies.”  
-          <i> Freedom to Tinker</i>. 2017.
-          <a href = "https://freedom-to-tinker.com/2017/07/24/design-ethics-for-gender-based-violence-and-safety-technologies/" target="_blank">
-            https://freedom-to-tinker.com/2017/07/24/design-ethics-for-gender-based-violence-and-safety-technologies/</a>. </p>
-      </div>
+			      <div class="publications">
+				<p> “Predicting abuse: Information sharing and predictive
+				  risk assessment in UK child protection services.” 
+				  <i>Theorizing the Web</i>. 2017.
+				  <a href = "https://youtu.be/KALAZfULYiM?t=2264" target="_blank">
+				    https://youtu.be/KALAZfULYiM?t=2264</a>. </p>
+				  <iframe width="600" height="352" src="https://www.youtube.com/embed/KALAZfULYiM?controls=0&amp;start=2264" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="center"></iframe><br>
+			      </div>
 
-      <div class="publications">
-        <p> “Predicting abuse: Information sharing and predictive
-          risk assessment in UK child protection services.” 
-          <i>Theorizing the Web</i>. 2017.
-          <a href = "https://youtu.be/KALAZfULYiM?t=2264" target="_blank">
-            https://youtu.be/KALAZfULYiM?t=2264</a>. </p>
-          <iframe width="750" height="441" src="https://www.youtube.com/embed/KALAZfULYiM?controls=0&amp;start=2264" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="center"></iframe><br>
-      </div>
+			      <div class="publications">
+				<p> “Who gets sick from yellow fever? What carceral
+				  feminism does not see.”  <i>Novara Media</i>. 2017.
+				  <br><a href="https://novaramedia.com/2017/03/12/who-gets-sick-from-yellow-fever-what-carceral-feminism-does-not-see/" target="_blank">
+				    https://novaramedia.com/2017/03/12/who-gets-sick-from-yellow-fever-what-carceral-feminism-does-not-see/</a>. </p>
+			      </div>			
+			</div>
+			<div class="row footer">
+				Design by John Jae Hyung Sim
+			</div>
+		</div>
 
-      <div class="publications">
-        <p> “Who gets sick from yellow fever? What carceral
-          feminism does not see.”  <i>Novara Media</i>. 2017.
-          <a href="https://novaramedia.com/2017/03/12/who-gets-sick-from-yellow-fever-what-carceral-feminism-does-not-see/" target="_blank">
-            https://novaramedia.com/2017/03/12/who-gets-sick-from-yellow-fever-what-carceral-feminism-does-not-see/</a>. </p>
-      </div>
-      </div> 
-    </div>
-  </div>
+
+	</div>
+
 </div>
-</div>
-
-</div>
-
-
-
-
-
-
-<div class="footer">
-  <p>Website design by Jae Hyung Sim</p>
-</div>
-
-
 
 
 

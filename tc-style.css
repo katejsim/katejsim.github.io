@@ -130,6 +130,12 @@ ul.navlinks li a:hover {
 
 
 /* Body Content */
+.tbody h1 {
+	font-family: archivo_black;
+	color: #444;
+	font-size: 2.5em;
+}
+
 .tbody h2 {
 	font-family: archivo_black;
 	color: #444;
@@ -141,7 +147,7 @@ ul.navlinks li a:hover {
 }
 
 .tbody p {
-	font-family: montserrat;
+	font-family: "montserrat";
 	color: #444;
 }
 
@@ -153,6 +159,17 @@ img.midtextimg {
 	width: 30%;
 	margin: 10px;
 	margin-top: 0px;
+}
+
+.tbody ul {
+	list-style-type: none;
+	font-family: "montserrat";
+	color: #444;
+}
+
+.tbody ul li {
+	padding-left: 1.5em;
+	text-indent: -1.5em;
 }
 
 

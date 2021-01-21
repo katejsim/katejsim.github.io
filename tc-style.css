@@ -182,7 +182,7 @@ img.midtextimg {
 	.sidebar {
 		width: 95%;
 		max-width: 780px;
-		min-height: 400px;
+		min-height: 300px;
 		z-index: 2;
 	}
 

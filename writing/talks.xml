@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<talks>
+	<talk>
+		<title>Thinking and writing through tech ethics beyond `broader impact.&apos;</title>
+		<locations>
+
+			<location>
+				<event>FAccT</event>
+				<year>2021</year>
+			</location>
+
+		</locations>
+
+		<video>https://youtu.be/M_iIN-N3y6w</video>
+	</talk>
+	
+	<talk>
+		<title>Ethnography and the Internet. Semantc social network analysis (SSNA) for digital policy.</title>
+		<locations>
+
+			<location>
+				<event>Oxford Digital Ethnography Group</event>
+				<physical>Oxford, UK</physical>
+				<year>2021</year>
+			</location>
+
+			<location>
+				<event>Next Generation Internet Policy Summit</event>
+				<physical>Brussels, Belgium</physical>
+				<year>2020</year>
+			</location>
+
+		</locations>
+	</talk>
+
+	<talk>
+		<title>The Imaginaries of campus rape and data in sexual harassment reporting systems.</talk>
+		<locations>
+
+			<location>
+				<event>Gender Summit</event>
+				<physical>Munich, Germany</physical>
+				<year>2021</year>
+			</location>
+
+			<location>
+				<event>Data Justice</event>
+				<physical>Cardiff, UK</physical>
+				<year>2021</year>
+			</location>
+
+			<location>
+				<event>Algorithms for her</event>
+				<physical>London, UK</physical>
+				<year>2020</year>
+			</location>
+
+			<location>
+				<event>Korean Institute for Gender Equality Promotion and Education</event>
+				<physical>Ulsan, South Korea</physical>
+				<year>2019</year>
+			</location>
+
+		</locations>
+</talks>

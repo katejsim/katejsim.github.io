@@ -151,6 +151,10 @@ ul.navlinks li a:hover {
 	color: #444;
 }
 
+#writings {
+	margin-bottom: 0;
+}
+
 .tbody a {
 	color: #2ca361;
 }

@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <talks>
 	<talk>
-		<title>Thinking and writing through tech ethics beyond `broader impact.&apos;</title>
+		<title>Thinking and writing through tech ethics beyond &apos;broader impact.&apos;</title>
 		<locations>
 
 			<location>
-				<event>FAccT</event>
+				<event link="https://youtu.be/M_iIN-N3y6w">FAccT</event>
+				<physical>Virtually presented</physical>
 				<year>2021</year>
+				<note>See the accompanying slides and worksheet in the linked video</note>
 			</location>
 
 		</locations>
@@ -34,7 +36,7 @@
 	</talk>
 
 	<talk>
-		<title>The Imaginaries of campus rape and data in sexual harassment reporting systems.</talk>
+		<title>The Imaginaries of campus rape and data in sexual harassment reporting systems.</title>
 		<locations>
 
 			<location>
@@ -62,4 +64,5 @@
 			</location>
 
 		</locations>
+	</talk>
 </talks>

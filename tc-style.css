@@ -155,6 +155,10 @@ ul.navlinks li a:hover {
 	margin-bottom: 0;
 }
 
+.video {
+	margin-left: 40px;
+}
+
 .tbody a {
 	color: #2ca361;
 }

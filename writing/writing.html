@@ -22,6 +22,8 @@
 </head>
 
 
+
+<body>
 	<script>
 		function extendNav() {
 			var x = document.getElementById("menu");
@@ -35,9 +37,6 @@
 
 	</script>
 
-
-
-<body>
 
 
 <div class="container">
@@ -55,25 +54,21 @@
 					<li class="icon"> <a href="javascript:void(0);" onclick="extendNav()">
 							<i class="fa fa-bars"></i></a></li>
 					<li> <a href="../bio/bio.html">About</a></li>
-					<li> <a href="../writing/writing.html">Writing</a></li>
-					<li> <a href="../writing/talks.html">Speaking</a></li>
+					<li> <a href="./writing.html">Writing</a></li>
+					<li> <a href="./talks.html">Speaking</a></li>
 					<li> <a href="../consulting/consulting.html">Consulting</a></li>
-					<li> <a href="./contact.html">Contact</a></li>
+					<li> <a href="../contact/contact.html">Contact</a></li>
 				</ul>
 			</div>
 		</div>
 
 		<div class="column contentframe">
 			<div class="row tbody" id="text-body">
-				<h2> Contact </h2>
-				<p>
-				E: <a href = "mailto: kate.sim@pm.me">
-				  kate.sim@pm.me </a><br>
-				T: <a href="https://twitter.com/katejsim" target="_blank">
-					@katejsim</a> <br>
-				L: <a href="https://www.linkedin.com/in/katejsim" target="_blank">
-				  /katejsim </a> <br>
+				<h2> Selected Writing</h2>
+				<p id="writings">
+				unsuccessful load	
 				</p>
+
 			</div>
 			<div class="row footer">
 				Design by John Jae Hyung Sim
@@ -86,9 +81,14 @@
 </div>
 
 
+<script src="./writing.js">
+</script>
+
 
 
 
 
 </body>
+
+
 </html>
